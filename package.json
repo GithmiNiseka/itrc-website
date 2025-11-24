@@ -2,7 +2,7 @@
   "name": "itrc-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GithmiNiseka.github.io/ITRC_Web",
+ "homepage": "https://githmiNiseka.github.io/itrc-website"
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",

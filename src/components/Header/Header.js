@@ -44,16 +44,15 @@ const Header = () => {
             {/* ITRC Logo and Brand */}
             <Navbar.Brand as={Link} to="/" className="d-flex align-items-center p-0" onClick={() => setExpanded(false)}>
               <div className="d-flex align-items-center">
-                <img 
-                  src="/logo.png"  
-                  alt="ITRC"
-                  height="45"
-                  className="me-2"
-                  onError={(e) => {
-                    // Fallback if logo.png doesn't exist
-                    e.target.src = "https://img.icons8.com/ios-filled/100/1a73e8/computer-support.png";
-                  }}
-                />
+              <img 
+  src={process.env.PUBLIC_URL + "/logo.png"}
+  alt="ITRC"
+  height="45"
+  className="me-2"
+  onError={(e) => {
+    e.target.src = "https://img.icons8.com/ios-filled/100/1a73e8/computer-support.png";
+  }}
+/>
                 <div className="d-flex flex-column">
                   <span className="fw-bold fs-4 text-dark" style={{ lineHeight: '1.1' }}>ITRC | FMSC</span>
                   <small className="text-muted" style={{ fontSize: '0.7rem', lineHeight: '1.2' }}>
@@ -127,5 +126,6 @@ const Header = () => {
     </motion.div>
   );
 };
+
 
 export default Header;

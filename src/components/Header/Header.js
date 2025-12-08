@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
@@ -77,7 +79,8 @@ const Header = () => {
                 { path: "/about", label: "About" },
                 { path: "/team", label: "Staff" },
                 { path: "/facilities", label: "Facilities" },
-                { path: "/contact", label: "Contact" }
+                { path: "/contact", label: "Contact" },
+                { path: "/careers", label: "Careers" }
               ].map((item) => (
                 <motion.div 
                   key={item.path}

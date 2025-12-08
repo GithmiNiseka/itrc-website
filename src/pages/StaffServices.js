@@ -23,7 +23,7 @@ const StaffServices = () => {
       icon: faDesktop,
       title: 'Microsoft Office 365',
       content: `
-        <p>ITRC facilitates Microsoft Office 365 software suite to undergraduates and staff members of the FMSC, which includes well-known applications such as Microsoft Word, Excel, OneNote, Publisher, PowerPoint, and Outlook. The software can be installed in up to five devices using your account.</p>
+        <p>ITRC facilitates Microsoft Office 365 software suite to undergraduates and staff members of the FMSC, which includes well-known applications such as Microsoft Word, Excel, OneNote, Publisher, PowerPoint, and Outlook.</p>
         <p>User accounts for all staff members are already created. If you are a new staff member, please make the request to the coordinator through your HOD, then ITRC will create an account for you.</p>
         <p><strong>Login URL:</strong> <a href="https://portal.office.com" target="_blank" rel="noopener noreferrer">https://portal.office.com</a></p>
         <p><strong>Username:</strong> [your_id]@mgt.sjp.ac.lk</p>

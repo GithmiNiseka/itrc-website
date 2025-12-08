@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import StudentServices from './pages/StudentServices';
 import StaffServices from './pages/StaffServices';
 import Facilities from './pages/Facilities';
+import Careers from './pages/Careers'; 
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/student-services" element={<StudentServices />} />
             <Route path="/staff-services" element={<StaffServices />} />
             <Route path="/facilities" element={<Facilities />} />
+            <Route path="/careers" element={<Careers />} />
             {/* Add this catch-all route */}
             <Route path="*" element={<Home />} />
           </Routes>

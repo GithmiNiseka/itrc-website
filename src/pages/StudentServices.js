@@ -32,14 +32,14 @@ const StudentServices = () => {
         <p>In order to take your files out, you can transfer a copy of the relevant document in "Outbox" (Y) drive and use the ITRC File Copy System to take a copy to your flash drive.</p>
       `
     },
-    {
-      icon: faFileExport,
-      title: 'File Copy System',
-      content: `
-        <p>This system will facilitate all FMSC undergraduates to take your documents which have been transferred to "Outbox" (Y) network location using a removable storage device.</p>
-        <p><strong>Location:</strong> The system is located at the Students' service area at ITRC.</p>
-      `
-    },
+    // {
+    //   icon: faFileExport,
+    //   title: 'File Copy System',
+    //   content: `
+    //     <p>This system will facilitate all FMSC undergraduates to take your documents which have been transferred to "Outbox" (Y) network location using a removable storage device.</p>
+    //     <p><strong>Location:</strong> The system is located at the Students' service area at ITRC.</p>
+    //   `
+    // },
     {
       icon: faKey,
       title: 'ITRC Password Reset System',
@@ -53,14 +53,16 @@ const StudentServices = () => {
       title: 'ITRC Helpdesk',
       content: `
         <p>ITRC Helpdesk team is here to help with any information or advice that you might need during your study. ITRC makes every effort to respond to your support requests within 24 hours on weekdays and 48 hours on weekends.</p>
-        <p><strong>Login URL:</strong> <a href="https://itrc.sjp.ac.lk/helpdesk/" target="_blank" rel="noopener noreferrer">https://itrc.sjp.ac.lk/helpdesk/</a></p>
+        <!--<p><strong>Login URL:</strong> 
+        <a href="https://itrc.sjp.ac.lk/helpdesk/" target="_blank" rel="noopener noreferrer">https://itrc.sjp.ac.lk/helpdesk/</a>
+        </p> -->
       `
     },
     {
       icon: faMicrosoft,
       title: 'Microsoft Office 365',
       content: `
-        <p>ITRC facilitates Microsoft Office 365 software suite to undergraduates and staff members of the FMSC, which includes well-known applications such as Microsoft Word, Excel, OneNote, Publisher, PowerPoint, and Outlook. The software can be installed in up to five devices using your account.</p>
+        <p>ITRC facilitates Microsoft Office 365 software suite to undergraduates and staff members of the FMSC, which includes well-known applications such as Microsoft Word, Excel, OneNote, Publisher, PowerPoint, and Outlook. The software can be installed on the device using your account.</p>
         <p><strong>Login URL:</strong> <a href="https://portal.office.com" target="_blank" rel="noopener noreferrer">https://portal.office.com</a></p>
         <p><strong>Username:</strong> [mc_number_without_mc]@mgt.sjp.ac.lk (Ex. 77000@mgt.sjp.ac.lk)</p>
         <p><strong>Password:</strong> [password_for_itrc_lab_computers]</p>
@@ -76,17 +78,18 @@ const StudentServices = () => {
         <p><strong>Login URL:</strong> <a href="https://outlook.office.com" target="_blank" rel="noopener noreferrer">https://outlook.office.com</a></p>
         <p><strong>Username:</strong> [mc_number_without_mc]@mgt.sjp.ac.lk (Ex. 77000@mgt.sjp.ac.lk)</p>
         <p><strong>Password:</strong> [password_for_itrc_lab_computers]</p>
-        <p><em>ITRC Password Reset System which is located at student's service area at ITRC, should be used to reset the ITRC lab password as well as the Office 365 Password.</em></p>
-      `
-    },
-    {
-      icon: faCode,
-      title: 'Development Software – Microsoft Azure for FMSC',
-      content: `
-        <p>The undergraduates and the staff of the Faculty of Management Studies and Commerce can enjoy the full advantage of original Microsoft server operating systems, applications, and other development tools using your office 365 account.</p>
-        <p><strong>Login URL:</strong> <a href="https://azureforeducation.microsoft.com/devtools" target="_blank" rel="noopener noreferrer">https://azureforeducation.microsoft.com/devtools</a></p>
+        <p><em>The ITRC Password Reset System in the Student Service Area should be used to reset both your ITRC lab password and your Office 365 password.</em></p>
       `
     }
+    //,
+    // {
+    //   icon: faCode,
+    //   title: 'Development Software – Microsoft Azure for FMSC',
+    //   content: `
+    //     <p>The undergraduates and the staff of the Faculty of Management Studies and Commerce can enjoy the full advantage of original Microsoft server operating systems, applications, and other development tools using your office 365 account.</p>
+    //     <p><strong>Login URL:</strong> <a href="https://azureforeducation.microsoft.com/devtools" target="_blank" rel="noopener noreferrer">https://azureforeducation.microsoft.com/devtools</a></p>
+    //   `
+    // }
   ];
 
   return (

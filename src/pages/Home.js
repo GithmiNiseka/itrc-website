@@ -29,7 +29,7 @@ const Home = () => {
     },
     {
       icon: faUserTie,
-      title: 'Staff Services',
+      title: 'Services for Staff',
       description: 'The undergraduates of the Faculty of Management Studies and Commerce can register with this service and can get the full advantage of original Microsoft operating systems, Applications and other development tools.',
       buttonText: 'Get Started',
       variant: 'outline-primary',
@@ -43,12 +43,6 @@ const Home = () => {
       variant: 'primary',
       link: 'https://itrcprojects.sjp.ac.lk/e-clerk/login.php'
     }
-  ];
-
-  const stats = [
-    { number: '8', label: 'Computer Labs' },
-    { number: '~6000', label: 'Students Served' },
-    { number: '20+', label: 'Dedicated Staff' }
   ];
 
   // ITRC-related gallery images
@@ -112,249 +106,6 @@ const Home = () => {
     <div>
       <Hero />
       
-      {/* About Section */}
-      <section className="section-padding">
-        <Container>
-          <Row className="align-items-center">
-            <Col lg={6}>
-              <motion.h2
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6 }}
-                className="section-title"
-              >
-                Who We Are
-              </motion.h2>
-              
-              <motion.h3
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className="h4 mb-4 text-primary-custom"
-              >
-                ITRC | Your Hub for Digital Learning and Innovation
-              </motion.h3>
-              
-              <motion.p
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-muted mb-4"
-              >
-                The ITRC is dedicated to providing state-of-the-art technological support for all students at FMSC. We maintain modern computer labs, high-speed networks, and comprehensive IT services to ensure every student has the tools they need to succeed in the digital economy.
-              </motion.p>
-              
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.5 }}
-                className="row text-center mt-4"
-              >
-                {stats.map((stat, index) => (
-                  <div key={index} className="col-4">
-                    <h4 className="text-primary-custom fw-bold">{stat.number}</h4>
-                    <p className="small text-muted">{stat.label}</p>
-                  </div>
-                ))}
-              </motion.div>
-              
-              <motion.p
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-                className="mt-4 small text-muted"
-              >
-                We operate 7 days a week, from 8:00 am to 8:30 pm, providing flexible access to resources.
-              </motion.p>
-            </Col>
-            
-            <Col lg={6} className="mt-4 mt-lg-0">
-              <motion.div
-                initial={{ opacity: 0, x: 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                className="position-relative"
-              >
-                {/* Gallery Container */}
-                <div 
-                  className="gallery-container shadow-lg"
-                  style={{
-                    height: '400px',
-                    borderRadius: '15px',
-                    overflow: 'hidden',
-                    position: 'relative',
-                    backgroundColor: '#f8f9fa',
-                    cursor: 'pointer'
-                  }}
-                >
-                  {/* Gallery Grid */}
-                  <div 
-                    className="gallery-grid"
-                    style={{
-                      display: 'grid',
-                      gridTemplateColumns: 'repeat(4, 1fr)',
-                      gridTemplateRows: 'repeat(4, 1fr)',
-                      gap: '4px',
-                      height: '100%',
-                      width: '100%'
-                    }}
-                  >
-                    {/* Image 1 - Large */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '1 / 3',
-                        gridRow: '1 / 3',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      <img 
-                        src={galleryImages[0].url}
-                        alt={galleryImages[0].title}
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                          transition: 'transform 0.3s ease'
-                        }}
-                        className="hover-zoom"
-                      />
-                    </div>
-                    
-                    {/* Image 2 - Small */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '3 / 4',
-                        gridRow: '1 / 2',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      <img 
-                        src={galleryImages[1].url}
-                        alt={galleryImages[1].title}
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                          transition: 'transform 0.3s ease'
-                        }}
-                        className="hover-zoom"
-                      />
-                    </div>
-                    
-                    {/* Image 3 - Medium */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '4 / 5',
-                        gridRow: '1 / 3',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      <img 
-                        src={galleryImages[2].url}
-                        alt={galleryImages[2].title}
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                          transition: 'transform 0.3s ease'
-                        }}
-                        className="hover-zoom"
-                      />
-                    </div>
-                    
-                    {/* Image 4 - Tall */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '3 / 4',
-                        gridRow: '2 / 4',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      <img 
-                        src={galleryImages[3].url}
-                        alt={galleryImages[3].title}
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                          transition: 'transform 0.3s ease'
-                        }}
-                        className="hover-zoom"
-                      />
-                    </div>
-                    
-                    {/* Image 5 - Wide */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '1 / 3',
-                        gridRow: '3 / 5',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      <img 
-                        src={galleryImages[4].url}
-                        alt={galleryImages[4].title}
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                          transition: 'transform 0.3s ease'
-                        }}
-                        className="hover-zoom"
-                      />
-                    </div>
-                    
-                    {/* Clickable "20+" Gallery Opener */}
-                    <div 
-                      className="gallery-item"
-                      style={{
-                        gridColumn: '4 / 5',
-                        gridRow: '3 / 5',
-                        backgroundColor: 'var(--primary-blue)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: 'white',
-                        textAlign: 'center',
-                        padding: '10px',
-                        cursor: 'pointer',
-                        transition: 'all 0.3s ease'
-                      }}
-                      onClick={openGallery}
-                      onMouseEnter={(e) => {
-                        e.target.style.backgroundColor = 'var(--secondary-blue)';
-                        e.target.style.transform = 'scale(1.02)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.target.style.backgroundColor = 'var(--primary-blue)';
-                        e.target.style.transform = 'scale(1)';
-                      }}
-                    >
-                      <div>
-                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '5px' }}>
-                          20+
-                        </div>
-                        <div style={{ fontSize: '0.7rem' }}>
-                          View Gallery
-                        </div>
-                        <div style={{ fontSize: '0.6rem', opacity: 0.8, marginTop: '5px' }}>
-                          Click to explore
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
       {/* Services Section */}
       <section className="py-5 bg-light-custom">
         <Container>
@@ -380,7 +131,7 @@ const Home = () => {
                     <Card.Body className="d-flex flex-column">
                       {/* Service Icon */}
                       <div className="service-icon-container-home mb-4">
-                        <FontAwesomeIcon icon={service.icon} className="service-fa-icon" />
+                        <FontAwesomeIcon icon={service.icon} size="2x" className="service-fa-icon" />
                       </div>
                       
                       {/* Service Content - Left Aligned */}

@@ -260,18 +260,21 @@ const Facilities = () => {
                   <FontAwesomeIcon icon={faCalendarAlt} className="me-2" />
                   Lab Allocation Schedule
                 </Button>
-                <Button 
-                  variant="success" 
-                  size="lg"
-                  className="mb-2"
-                  href={reserveLabUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{backgroundColor:'#d4af37', borderColor:'#d4af37'}}
-                >
-                  <FontAwesomeIcon icon={faClock} className="me-2" />
-                  Reserve Lab (Staff)
-                </Button>
+                
+                {/*
+                  <Button 
+                    variant="success" 
+                    size="lg"
+                    className="mb-2"
+                    href={reserveLabUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{backgroundColor:'#d4af37', borderColor:'#d4af37'}}
+                  >
+                    <FontAwesomeIcon icon={faClock} className="me-2" />
+                    Reserve Lab (Staff)
+                  </Button>
+                  */}
               </motion.div>
             </Col>
           </Row>

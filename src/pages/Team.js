@@ -255,7 +255,7 @@ const Team = () => {
   },
   { 
     name: "Mr. Aruna S. Abeywickrama", 
-    image: "/images/former-staff/tutors/aruna_11.jpg"
+    image: "/images/former-staff/tutors/male.png"
   },
   { 
     name: "Dr. Leelanga D. Seneviratne", 
@@ -271,7 +271,7 @@ const Team = () => {
   },
   { 
     name: "Mr. P.H.Ruwan P.K. Harrison", 
-    image: "/images/former-staff/tutors/ruwan_15.jpg"
+    image: "/images/former-staff/tutors/male.png"
   },
   { 
     name: "Ms. T.M. Muthumali Perera", 
@@ -299,7 +299,7 @@ const Team = () => {
   },
   { 
     name: "Ms. R.M.D.K. Priyadarshani", 
-    image: "/images/former-staff/tutors/priyadarshani_22.jpg"
+    image: "/images/former-staff/tutors/female.jpg"
   }
 
 
@@ -325,11 +325,11 @@ const Team = () => {
           "Bachelor of Science in Public Management (Second Class Upper Division) Degree, University of Sri Jayewardenepura, Sri Lanka (October 2011)",
           ]
    },
-  { name: "Miss. Buddhima Perera", position: "Com. Instructor (Temp)", image: "",  
+  { name: "Miss. Buddhima Perera", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg",  
     qualifications: [
           "Bachelor of Science in Business Administration (Business Economics Special) Degree, University of Sri Jayewardenepura, Sri Lanka (October 2013)",
           "Reading for Masters in Economics, University of Colombo, Sri Lanka"], professionalQualifications:["Certificate in Accounting and business II in ICSL."]},
-  { name: "Mr. Udara Alagalla", position: "Com. Instructor (Temp)", image: "" ,
+  { name: "Mr. Udara Alagalla", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" ,
     qualifications:["Bachelor of Science in Business Information Systems (Special) Degree, University of Sri Jayewardenepura, Sri Lanka (October 2014)",
     "Reading for Master of Science in Computer Sicence Degree, University of Sri Jayewardenepura, Sri Lanka"
   ],
@@ -387,7 +387,7 @@ const Team = () => {
   { name: "Mr. W. P. S. Harsha Tissera", position: "", image: "/images/former-staff/instructors/Harsha_30.png" },
   { name: "Mr. A. C. Wanniarchchi", position: "", image: "/images/former-staff/instructors/wanniarachchi_31.jpg" },
   { name: "Mr. Tharidu Weerasingha", position: "", image: "/images/former-staff/instructors/Tharidu_32.jpg" },
-  { name: "Ms. S. M. D. M. Premathilake", position: "Com. Instructor (Temp)", image: "" },
+  { name: "Ms. S. M. D. M. Premathilake", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
   { name: "Mr. W. H. T. Gunawardhana", position: "", image: "/images/former-staff/instructors/gunawardhana_34.jpg" },
   { name: "Ms. N. H. L. Guruge", position: "", image: "/images/former-staff/instructors/guruge_35.jpg" },
   { name: "Ms. R. M. D. Rathnayaka", position: "", image: "/images/former-staff/instructors/rathnayaka_36.jpg" },
@@ -397,30 +397,30 @@ const Team = () => {
   { name: "Ms. H.G.N Saumya Kumari", position: "", image: "/images/former-staff/instructors/Saumya_40.jpg" },
   { name: "Ms. K.W. Madushani Premathilaka", position: "", image: "/images/former-staff/instructors/Madushani_41.jpg" },
   { name: "Ms. Saduni Gunawardana", position: "", image: "/images/former-staff/instructors/saduni_42.png" },
-  { name: "Mr. Malith Wijekoon", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/" ,qualifications:["Bachelor of Science in Business Information Systems(Special) Degree, University of Sri Jayewardenepura, Sri Lanka (January 2016)"]},
+  { name: "Mr. Malith Wijekoon", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/male.png" ,qualifications:["Bachelor of Science in Business Information Systems(Special) Degree, University of Sri Jayewardenepura, Sri Lanka (January 2016)"]},
   { name: "Ms. Shanika R Perera", position: "", image: "/images/former-staff/instructors/shanika_44.jpg" },
-  { name: "Miss. Thanuja Hindagoda", position: "Com. Instructor (Temp)", image: "" },
+  { name: "Miss. Thanuja Hindagoda", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
   { name: "Ms. R.M.G.S Jayarathna", position: "", image: "/images/former-staff/instructors/jayarathna_46.jpg" },
   { name: "Miss. Imanjali Maheshika", position: "Com. Instructor (Temp)",image: "/images/former-staff/instructors/imanjali_47.png" },
-  { name: "Miss. J. H. A. K. H. Kumari", position: "Com. Instructor (Temp)", image: "" },
-  { name: "Miss. Prabasha Rajapaksha", position: "Com. Instructor (Temp)", image: "" },
-  { name: "Miss. Hansani Nachinthika", position: "Com. Instructor (Temp)", image: "" , qualifications:["Bachelor of Science in Business Administration (Special) Degree, University of Sri Jayewardenepura, Sri Lanka (January 2016)"]},
-  { name: "Miss. Thakshila Piumali", position: "Com. Instructor (Temp)", image: "" },
+  { name: "Miss. J. H. A. K. H. Kumari", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
+  { name: "Miss. Prabasha Rajapaksha", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
+  { name: "Miss. Hansani Nachinthika", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" , qualifications:["Bachelor of Science in Business Administration (Special) Degree, University of Sri Jayewardenepura, Sri Lanka (January 2016)"]},
+  { name: "Miss. Thakshila Piumali", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
   { name: "Miss. Achini Jayewardene", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/achini_52.jpg" ,qualifications:["B. Sc. in ICT (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
   { name: "Miss. Chamodi Kapukotuwa", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/chamodi_53.jpg" ,qualifications:["B. Sc. Estate Management and Valuation (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
   { name: "Miss. Dulanji Tharumuthu", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/dulanji_55.jpg" ,qualifications:["B. Sc. Estate Management and Valuation (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
-  { name: "Miss. Shashini Weerasinghe", position: "Com. Instructor (Temp)", image: "" ,qualifications:["Bachelor of Science in Estate Management & Valuation (Special) Degree, University of Sri Jayewardenepura, Sri Lanka (October 2017)"]},
+  { name: "Miss. Shashini Weerasinghe", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" ,qualifications:["Bachelor of Science in Estate Management & Valuation (Special) Degree, University of Sri Jayewardenepura, Sri Lanka (October 2017)"]},
   { name: "Miss. Kosala Balasooriya", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/Kosala_56.jpg" ,qualifications:["Bachelor of Science in Business Information Systems(Special) Degree, University of Sri Jayewardenepura, Sri Lanka."]},
   { name: "Miss. Oshani Bodhiwansha", position: "", image: "/images/former-staff/instructors/Oshani_57.jpg" ,qualifications:["Bachelor of Science in Business Information Systems(Special) Degree, University of Sri Jayewardenepura, Sri Lanka."],
     FacultyContributions:["Member of the organizing committee of Students’ Orientation Programme 2018."]
   },
-  { name: "Miss. Kalhari Dissanayaka", position: "Com. Instructor (Temp)", image: "" },
+  { name: "Miss. Kalhari Dissanayaka", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/female.jpg" },
   { name: "Mrs. Tharindi Jayawickrama", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/Tharindi_59.jpg" ,qualifications:["Bachelor of Science (Hons) Special in Mathematical Finance, University of Colombo (January 2016)",
     "Reading for MSc in Business Statistics, University Of Moratuwa"
   ],FacultyContributions:["Member of the organizing committee of Students' Orientation Programme 2018."]},
   { name: "Miss. Chamika Hulangamuwa", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/chamika_60.jpg" ,qualifications:["B. Sc. in ICT (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
   { name: "Miss. Madushika Samarasinha", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/madushika_61.jpg",qualifications:["B. Sc. Estate Management and Valuation (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"] },
-  { name: "Mr. Chamika Udesh", position: "Com. Instructor (Temp)", image: "" ,qualifications:["B. Sc. in BIS (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
+  { name: "Mr. Chamika Udesh", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/male.png" ,qualifications:["B. Sc. in BIS (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
   { name: "Ms. Chamali Pabasara", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/chamali_63.png",qualifications:["B. Sc. in ICT (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"] },
   { name: "Ms. Maleesha Rajakaruna", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/maleesha_64.jpg" ,qualifications:["B. Sc. in Finance (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
   { name: "Mrs. Tharanga Dissanayake", position: "Com. Instructor (Temp)", image: "/images/former-staff/instructors/tharanga_65.jpg" ,qualifications:["B. Sc. in BIS (Special) Degree, University of Sri Jayewardenepura, Sri Lanka"]},
